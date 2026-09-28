@@ -3,6 +3,7 @@ import os
 
 # Database name
 DB_NAME = "database.db"
+TABLE_NAME = "expences"
 
 def get_connection():
 	"""Establishes connection to the SQLite database."""
